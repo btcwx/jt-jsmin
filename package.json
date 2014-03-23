@@ -1,0 +1,28 @@
+{
+  "name": "jt-jsmin",
+  "version": "0.0.1",
+  "description": "jsmin for jt-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "make"
+  },
+  "keywords": [
+    "jsmin",
+    "jt-jsmin"
+  ],
+  "author": {
+    "name": "wyicwx",
+    "email": "wyicwx@gmail.com",
+    "web": "http://weibo.com/simplemaple"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jsmin2": "~1.1.7",
+    "through2": "~0.4.1"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "jt-jsmin/lib"
+    }
+  }
+}
