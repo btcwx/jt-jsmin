@@ -1,1 +1,1 @@
-module.exports = require('lib/jsmin.js');
+module.exports = require('./lib/jsmin.js');
